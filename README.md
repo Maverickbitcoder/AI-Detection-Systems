@@ -39,3 +39,48 @@ This dataset contains over 40,000 real and fake news articles which are preproce
 - Naive Bayes Classifier
 - Support Vector Machine (SVM)
 - Performance Evaluation (Accuracy, Precision, Recall, F1-score)
+
+
+
+# Language Detection using Machine Learning
+
+This project is focused on detecting the language of a given text input using a machine learning model. The system is designed to handle multiple languages and can be easily extended to include more languages. It uses a simple machine learning approach with scikit-learn, pandas, and streamlit for a user-friendly interface.
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [How it Works](#how-it-works)
+- [File Structure](#file-structure)
+- [Example Input](#example-input)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Overview
+
+This project allows you to detect the language of a given text input. The system is built using Python and leverages popular libraries like scikit-learn for machine learning, pandas for data handling, and Streamlit for creating an interactive user interface.
+
+### Features
+
+- **Multi-language support:** Detects languages such as English, Spanish, French, German, etc.
+- **Simple UI:** A web-based interface built using Streamlit for easy text input.
+- **Scalable:** Can be extended to support more languages by training the model with additional data.
+
+## Technologies Used
+
+- **Python 3.x**: The programming language used for building the project.
+- **pandas**: For data handling and manipulation.
+- **scikit-learn**: For creating the machine learning model.
+- **Streamlit**: For building the user interface.
+- **Natural Language Toolkit (nltk)**: Used for text preprocessing.
+
+## Installation
+
+Follow these steps to set up the project locally.
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/language-detection.git
+   cd language-detection
